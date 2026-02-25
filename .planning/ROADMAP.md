@@ -31,12 +31,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   2. A test payment can be placed using Visa, Mastercard, Shop Pay, and Apple Pay
   3. Guest checkout completes without requiring account creation
   4. Store is in password-protected mode (not yet public) with a branded coming-soon page
-**Plans**: TBD
+**Plans**: 3 plans
 
 Plans:
-- [ ] 01-01: Shopify account creation, plan selection, and Payments setup
-- [ ] 01-02: Custom domain purchase, DNS configuration, and HTTPS verification
-- [ ] 01-03: Guest checkout activation and coming-soon password page
+- [ ] 01-01-PLAN.md — Shopify account creation, Basic plan subscription, and Shopify Payments activation (Visa, Mastercard, Shop Pay, Apple Pay)
+- [ ] 01-02-PLAN.md — Custom domain purchase, DNS configuration, and HTTPS/SSL verification
+- [ ] 01-03-PLAN.md — Guest checkout activation and FAUNA LUXE coming-soon password page build
 
 ### Phase 2: Product Catalog
 **Goal**: All 12+ product variants exist in Shopify with correct naming, pricing, and collection structure — the data foundation that theme styling and dropshipping mapping both require
