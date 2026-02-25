@@ -9,7 +9,7 @@
 
 - [ ] **FOUND-01**: Shopify store created with Payments enabled (Visa, Mastercard, Shop Pay, Apple Pay)
 - [ ] **FOUND-02**: Custom domain configured and connected to store (e.g. faunaluxe.com)
-- [ ] **FOUND-03**: Guest checkout enabled (Shopify disables this by default -- must be manually turned on)
+- [x] **FOUND-03**: Guest checkout enabled (Shopify disables this by default -- must be manually turned on)
 - [ ] **FOUND-04**: SSL certificate active, store loads on HTTPS
 
 ### Product Catalog
@@ -96,7 +96,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 |-------------|-------|--------|
 | FOUND-01 | Phase 1 | Pending |
 | FOUND-02 | Phase 1 | Pending |
-| FOUND-03 | Phase 1 | Pending |
+| FOUND-03 | Phase 1 | Complete |
 | FOUND-04 | Phase 1 | Pending |
 | PROD-01 | Phase 2 | Pending |
 | PROD-02 | Phase 2 | Pending |

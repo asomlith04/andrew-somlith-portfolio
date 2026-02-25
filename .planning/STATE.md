@@ -48,6 +48,9 @@ Recent decisions affecting current work:
 - $50-80 price point (aspirational but attainable for student market)
 - Store URL is ggbxfd-ew.myshopify.com -- use as CNAME target in Plan 01-02 DNS configuration
 - Shopify Payments submitted pending review -- Wave 2 (01-02, 01-03) proceeds in parallel per plan design
+- [Phase 01-03]: Countdown placeholder date set to 2026-05-26 (90 days); UPDATE comment added to JS constant for easy future edit
+- [Phase 01-03]: Email capture uses native Shopify form (no Klaviyo) — subscribers tagged prospect/coming-soon for Phase 5 segmentation
+- [Phase 01-03]: Password gate positioned subtly at bottom of coming-soon page — teaser content is visual focus, not the gate
 
 ### Pending Todos
 
