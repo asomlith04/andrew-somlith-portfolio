@@ -10,16 +10,16 @@ See: .planning/PROJECT.md (updated 2026-02-24)
 ## Current Position
 
 Phase: 1 of 7 (Store Foundation)
-Plan: 0 of 3 in current phase
-Status: Ready to plan
-Last activity: 2026-02-25 -- Roadmap created, project initialized
+Plan: 1 of 3 in current phase (partial -- Payments pending Shopify review)
+Status: Executing -- Wave 2 next (Plans 01-02 and 01-03)
+Last activity: 2026-02-25 -- Plan 01-01 complete (partial: Basic plan active, Payments submitted pending review)
 
 Progress: [..........] 0%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 0
+- Total plans completed: 0 (01-01 partial -- FOUND-01 incomplete until Payments approved)
 - Average duration: -
 - Total execution time: 0 hours
 
@@ -46,18 +46,21 @@ Recent decisions affecting current work:
 - Dropshipping over inventory (lower risk for brand validation)
 - 3 prints for v1 (focused collection feels curated/luxury)
 - $50-80 price point (aspirational but attainable for student market)
+- Store URL is ggbxfd-ew.myshopify.com -- use as CNAME target in Plan 01-02 DNS configuration
+- Shopify Payments submitted pending review -- Wave 2 (01-02, 01-03) proceeds in parallel per plan design
 
 ### Pending Todos
 
-None yet.
+- Revisit Payments approval: once Shopify approves, enable Apple Pay + Shop Pay in Wallets, verify all 4 payment methods in test checkout, mark FOUND-01 complete
 
 ### Blockers/Concerns
 
 - Supplier catalog availability for animal print MacBook M2/M3 cases not yet confirmed (critical for Phase 4)
 - Prestige theme pricing (~$380) needs live verification before Phase 3 purchase
+- Shopify Payments pending review -- all 4 payment methods (Visa, Mastercard, Shop Pay, Apple Pay) cannot be verified until approved (up to 24 hours); FOUND-01 incomplete
 
 ## Session Continuity
 
 Last session: 2026-02-25
-Stopped at: Roadmap created. Ready to plan Phase 1.
+Stopped at: Plan 01-01 partial complete. Executing Wave 2: Plans 01-02 (DNS/HTTPS) and 01-03 (guest checkout + coming-soon page) next.
 Resume file: None

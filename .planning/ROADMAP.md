@@ -34,7 +34,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 3 plans
 
 Plans:
-- [ ] 01-01-PLAN.md — Shopify account creation, Basic plan subscription, and Shopify Payments activation (Visa, Mastercard, Shop Pay, Apple Pay)
+- [~] 01-01-PLAN.md — Shopify account creation, Basic plan subscription, and Shopify Payments activation (Visa, Mastercard, Shop Pay, Apple Pay) [PARTIAL: Basic plan active at ggbxfd-ew.myshopify.com; Payments pending review]
 - [ ] 01-02-PLAN.md — Custom domain purchase, DNS configuration, and HTTPS/SSL verification
 - [ ] 01-03-PLAN.md — Guest checkout activation and FAUNA LUXE coming-soon password page build
 
@@ -161,7 +161,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Store Foundation | 0/3 | Not started | - |
+| 1. Store Foundation | 1/3 | In Progress|  |
 | 2. Product Catalog | 0/4 | Not started | - |
 | 3. Theme and Brand Buildout | 0/7 | Not started | - |
 | 4. Dropshipping Integration | 0/4 | Not started | - |
