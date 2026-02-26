@@ -5,14 +5,14 @@
 See: .planning/PROJECT.md (updated 2026-02-24)
 
 **Core value:** The FAUNA LUXE brand identity (cream & beige quiet luxury meets wild animal print) is what separates a $60 MacBook case from a $12 Amazon case -- the brand IS the product.
-**Current focus:** Phase 1: Store Foundation
+**Current focus:** Phase 2: Product Catalog (Phase 1 paused — 2 checkpoints pending)
 
 ## Current Position
 
-Phase: 1 of 7 (Store Foundation)
-Plan: 1 of 3 in current phase (partial -- Payments pending Shopify review)
-Status: Executing -- Wave 2 next (Plans 01-02 and 01-03)
-Last activity: 2026-02-25 -- Plan 01-01 complete (partial: Basic plan active, Payments submitted pending review)
+Phase: 2 of 7 (Product Catalog) — Phase 1 paused with open checkpoints
+Plan: 0 of TBD in current phase
+Status: Starting Phase 2 — user pivot to product design
+Last activity: 2026-02-25 -- Phase 1 paused (01-02 domain + 01-03 coming-soon checkpoints deferred)
 
 Progress: [..........] 0%
 
@@ -55,6 +55,8 @@ Recent decisions affecting current work:
 ### Pending Todos
 
 - Revisit Payments approval: once Shopify approves, enable Apple Pay + Shop Pay in Wallets, verify all 4 payment methods in test checkout, mark FOUND-01 complete
+- Phase 1 checkpoint: 01-02 domain purchase + DNS + HTTPS verification (resume signal: "domain connected: [domain]")
+- Phase 1 checkpoint: 01-03 deploy coming-soon template + visual verify (resume signal: "page approved")
 
 ### Blockers/Concerns
 
@@ -65,5 +67,6 @@ Recent decisions affecting current work:
 ## Session Continuity
 
 Last session: 2026-02-25
-Stopped at: Plan 01-01 partial complete. Executing Wave 2: Plans 01-02 (DNS/HTTPS) and 01-03 (guest checkout + coming-soon page) next.
-Resume file: None
+Stopped at: Phase 2 context gathered — ready for planning
+Resume file: .planning/phases/02-product-catalog/02-CONTEXT.md
+Phase 1 agent IDs: 01-02 (a992af7ee64060a8c), 01-03 (aab130753a2d83b40) — resume when user returns to complete checkpoints
