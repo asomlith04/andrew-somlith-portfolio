@@ -48,13 +48,13 @@ Plans:
   3. Three collection pages exist — Leopard, Snake, and Cow Print — each showing all compatible model variants
   4. Editorial product photography in cream and beige aesthetic is applied to each print's product and collection pages
   5. All product prices are set in the $50–80 range
-**Plans**: TBD
+**Plans**: 4 plans
 
 Plans:
-- [ ] 02-01: MacBook compatibility matrix — verify M-series chassis dimensions against Apple specs, build variant naming guide
-- [ ] 02-02: Create all 12+ product variants in Shopify with correct SKU naming, pricing, and metafields
-- [ ] 02-03: Build three print collection pages and link compatibility guide to all product pages
-- [ ] 02-04: Source or produce editorial product photography and apply to all product and collection pages
+- [ ] 02-01-PLAN.md — Create 3 products with 4 MacBook model variants each, SKUs, pricing, descriptions, and 3 print collection pages
+- [ ] 02-02-PLAN.md — Wire compatibility guide accordion via metafield + collapsible row block, install Notify Me app for out-of-stock variants
+- [ ] 02-03-PLAN.md — Source and produce 9 editorial product images (hero, flat lay, texture per print), upload to Shopify products and collections
+- [ ] 02-04-PLAN.md — Full visual verification checkpoint: all products, collections, images, accordion, and Notify Me confirmed correct
 
 ### Phase 3: Theme and Brand Buildout
 **Goal**: The store looks and feels like a $65 luxury fashion brand — Prestige theme configured to full FAUNA LUXE identity before any public traffic arrives
@@ -162,7 +162,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Store Foundation | 2/3 | In Progress|  |
-| 2. Product Catalog | 0/4 | Not started | - |
+| 2. Product Catalog | 0/4 | Planned | - |
 | 3. Theme and Brand Buildout | 0/7 | Not started | - |
 | 4. Dropshipping Integration | 0/4 | Not started | - |
 | 5. Marketing Infrastructure | 0/7 | Not started | - |
