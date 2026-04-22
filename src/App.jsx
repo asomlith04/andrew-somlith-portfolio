@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom'
+import { HashRouter, Routes, Route, useLocation } from 'react-router-dom'
 import { AnimatePresence } from 'motion/react'
 import Nav from './components/Nav'
 import PageTransition from './components/PageTransition'
@@ -24,11 +24,11 @@ function AnimatedRoutes() {
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="min-h-screen">
         <Nav />
         <AnimatedRoutes />
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
