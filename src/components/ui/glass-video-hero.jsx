@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router-dom'
 import { Maximize2, Minimize2 } from 'lucide-react'
 
 /**
@@ -56,6 +57,15 @@ const HeroSection = ({
         </span>
       ) : null
 
+    // Internal route — use React Router Link for proper SPA nav
+    if (cta.to) {
+      return (
+        <Link to={cta.to} className={className}>
+          {cta.label}
+          {arrow}
+        </Link>
+      )
+    }
     if (cta.href) {
       // In-page anchor (e.g. "#case-studies"): scroll smoothly without
       // polluting the router hash (HashRouter would treat it as a route).
