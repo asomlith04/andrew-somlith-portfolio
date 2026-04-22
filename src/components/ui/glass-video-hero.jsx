@@ -57,6 +57,22 @@ const HeroSection = ({
       ) : null
 
     if (cta.href) {
+      // In-page anchor (e.g. "#case-studies"): scroll smoothly without
+      // polluting the router hash (HashRouter would treat it as a route).
+      if (cta.href.startsWith('#')) {
+        const targetId = cta.href.slice(1)
+        const handleAnchorClick = (e) => {
+          e.preventDefault()
+          const el = document.getElementById(targetId)
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        }
+        return (
+          <a href={cta.href} onClick={handleAnchorClick} className={className}>
+            {cta.label}
+            {arrow}
+          </a>
+        )
+      }
       return (
         <a href={cta.href} className={className}>
           {cta.label}
