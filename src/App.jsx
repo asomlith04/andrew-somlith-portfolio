@@ -8,6 +8,7 @@ import Work from './pages/Work'
 import CaseStudies from './pages/CaseStudies'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Somra from './pages/Somra'
 
 function AnimatedRoutes() {
   const location = useLocation()
@@ -20,9 +21,16 @@ function AnimatedRoutes() {
         <Route path="/case-studies" element={<PageTransition><CaseStudies /></PageTransition>} />
         <Route path="/about" element={<PageTransition><About /></PageTransition>} />
         <Route path="/contact" element={<PageTransition><Contact /></PageTransition>} />
+        <Route path="/somra" element={<Somra />} />
       </Routes>
     </AnimatePresence>
   )
+}
+
+function ChromeNav() {
+  const location = useLocation()
+  if (location.pathname === '/somra') return null
+  return <Nav />
 }
 
 export default function App() {
@@ -30,7 +38,7 @@ export default function App() {
     <HashRouter>
       <ScrollToTop />
       <div className="min-h-screen">
-        <Nav />
+        <ChromeNav />
         <AnimatedRoutes />
       </div>
     </HashRouter>
